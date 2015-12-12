@@ -1,5 +1,5 @@
 # Ignore all example files
-generators/app/templates/examples
+examples
 
 # Ignore transpiled scripts
 lib
