@@ -40,7 +40,7 @@ gulp.task('changelog', function () {
 gulp.task('commit-changes', function () {
     return gulp.src([
         'CHANGELOG.md',
-        'pkg.json'
+        'package.json'
     ])
         .pipe(git.add())
         .pipe(git.commit('Version: Bump up version to ' + pkg.version))
