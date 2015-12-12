@@ -33,8 +33,8 @@ Yeoman has a heart of gold. He&#39;s a person with feelings and opinions, but he
 
 ## TODO
 
-[ ] Make License configurable
-[ ] Incorporate coverage script
+- [ ] Make License configurable
+- [ ] Incorporate coverage script
 
 ## License
 
