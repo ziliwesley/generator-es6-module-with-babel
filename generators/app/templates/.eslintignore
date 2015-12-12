@@ -1,0 +1,8 @@
+# Ignore all example files
+examples
+
+# Ignore transpiled scripts
+lib
+
+# Ignore workflow scripts
+scripts
