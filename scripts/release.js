@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const conventionalChangelog = require('gulp-conventional-changelog');
 const git = require('gulp-git');
 const runSequence = require('run-sequence').use(gulp);
-const package = require('./package.json');
+const pkg = require('../package.json');
 
 const INCLUDED_TAGS = [
     'Fix',
@@ -40,16 +40,16 @@ gulp.task('changelog', function () {
 gulp.task('commit-changes', function () {
     return gulp.src([
         'CHANGELOG.md',
-        'package.json'
+        'pkg.json'
     ])
         .pipe(git.add())
-        .pipe(git.commit(`Version: Bump up version to ${package.version}`))
+        .pipe(git.commit('Version: Bump up version to ' + pkg.version))
 });
 
 // Commit-changes made by `gulp transpile` & `gulp changelog`
 // Do not run this task manually!!
 gulp.task('create-new-tag', function (callback) {
-    git.tag(package.version, `Version ${package.version}`, function (err) {
+    git.tag(pkg.version, 'Version ' + pkg.version, function (err) {
         if (err) {
             callback(err);
         }
