@@ -1,3 +1,13 @@
+<a name="0.1.4"></a>
+## 0.1.4 (2015-12-12)
+
+
+### New
+
+* Include example folder ([69c40a43fc98f03448ff551e89a10d2171f6638e](https://github.com/ziliwesley/generator-es6-module-with-babel/commit/69c40a43fc98f03448ff551e89a10d2171f6638e))
+
+
+
 <a name="0.1.3"></a>
 ## 0.1.3 (2015-12-12)
 
