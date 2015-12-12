@@ -1,6 +1,6 @@
 {
   "name": "generator-es6-module-with-babel",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Yeoman generator for creating a basic ES6 module with Babel6, ESLint and Jest",
   "homepage": "https://github.com/ziliwesley/generator-es6-module-with-babel",
   "author": {
