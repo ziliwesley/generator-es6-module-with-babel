@@ -62,6 +62,8 @@ module.exports = yeoman.generators.Base.extend({
         this.directory('test', 'test');
         // Source folder
         this.directory('src', 'src');
+        // Example folder
+        this.directory('examples', 'examples');
     },
 
     install: function () {
