@@ -44,8 +44,8 @@ module.exports = yeoman.generators.Base.extend({
         this.copy('.eslintignore', '.eslintignore');
         this.copy('.eslintrc', '.eslintrc');
         this.copy('_gitignore', '.gitignore');
-        this.copy('.npmignore', '.npmignore');
-        this.copy('.npmrc', '.npmrc');
+        this.copy('_npmignore', '.npmignore');
+        this.copy('_npmrc', '.npmrc');
         this.copy('.tern-project', '.tern-project');
         this.copy('CHANGELOG.md', 'CHANGELOG.md');
         this.copy('index.js', 'index.js');
