@@ -16,6 +16,6 @@ npm test
 
 ## Bump up version
 
-```
+```bash
 npm version <version>
 ```
